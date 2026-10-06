@@ -5,6 +5,12 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Fabio Iadicicco</title>
+  <style>
+    tr,
+    td {
+      border: 1px solid;
+    }
+  </style>
 </head>
 
 <body>
@@ -22,6 +28,9 @@
           <a href="#competenze">Competenze</a>
         </li>
         <li>
+          <a href="#esperienze">Esperienze</a>
+        </li>
+        <li>
           <a href="#progetti">Progetti</a>
         </li>
         <li>
@@ -32,6 +41,7 @@
   </header>
   <main>
     <h2 id="chiSono">Chi sono</h2>
+    <img src="https://placehold.co/200x200" title="Immagine profilo" alt="Immagine profilo">
     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sint, veniam! Deleniti cumque ea vero harum,
       perferendis in debitis, officia magnam blanditiis nobis velit sit consequuntur quam odio iure similique possimus?
     </p>
@@ -47,33 +57,91 @@
       <li>Git e Github</li>
       <li>Visual studio code</li>
     </ul>
-    <h2 id="progetti">Progetti</h2>
-    <p>I lavori svolti durante le prime settimane del corso.</p>
-    <h3>
-      Pagina ricetta
-    </h3>
-    <p>
-      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nihil, commodi at, ratione sint beatae assumenda
-      accusantium architecto maxime aperiam rerum inventore voluptatibus, mollitia tempore eos doloremque! Ad, eius
-      debitis.
-    </p>
-    <a target="_blank" href="javascript:void(0)">Vedi su github</a>
-    <h3>
-      Card di presentazione
-    </h3>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus magni sapiente, atque voluptate rem earum, possimus
-      quasi eius dolore facere nisi tempore sint aut ipsa et dolorum culpa provident eum.
-    </p>
-    <a target="_blank" href="javascript:void(0)">Vedi su github</a>
+
+
+    <section id="#esperienze">
+      <h2>Esperienze</h2>
+      <p>Un riepilogo delle mie esperienze</p>
+      <table>
+        <caption>Esperienze Formative</caption>
+        <thead>
+          <tr>
+            <th>Anno</th>
+            <th>Ruolo</th>
+            <th>Azienda/scuola</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2026</td>
+            <td>Studente full Stack </td>
+            <td>epicode</td>
+          </tr>
+          <tr>
+            <td>2021 - 2026</td>
+            <td>istituto tecnico informatico</td>
+            <td>Nome</td>
+          </tr>
+          <tr>
+            <td>2023 - oggi</td>
+            <td>Sviluppo web</td>
+            <td>indipendente</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+
+
+    <section id="#progetti">
+      <h2>Progetti</h2>
+      <p>I lavori svolti durante le prime settimane del corso.</p>
+    </section>
+
+    <div>
+      <h3>
+        Pagina ricetta
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa nihil, commodi at, ratione sint beatae assumenda
+        accusantium architecto maxime aperiam rerum inventore voluptatibus, mollitia tempore eos doloremque! Ad, eius
+        debitis.
+      </p>
+      <a target="_blank" href="javascript:void(0)">Vedi su github</a>
+    </div>
+
+    <div>
+      <h3>
+        Card di presentazione
+      </h3>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus magni sapiente, atque voluptate rem earum,
+        possimus
+        quasi eius dolore facere nisi tempore sint aut ipsa et dolorum culpa provident eum.
+      </p>
+      <a target="_blank" href="javascript:void(0)">Vedi su github</a>
+    </div>
+
+  </main>
+  <section>
     <h2 id="contatti">
       Contatti
     </h2>
     <p>Sono presente in queste piattaforme, dove puoi seguirmi e contattarmi</p>
+    <form method="post" action="">
+        <label for="name" id="name">Nome</label> <br>
+        <input placeholder="il tuo nome" type="text" name="name" id="name"> <br> <br>
+          <label for="email" id="email">email</label> <br>
+          <input type="text" placeholder="la tua email" name="email" id="email"> <br> <br>
+          <label for="select">Motivo del contatto</label> <br>
+          <select name="select" id="select">
+            <option value="#">seleziona un opzione</option>
+          </select>
+    </form>
     <p>Profilo Github: <a target="_blank" href="https://github.com/Fabioiad2">github.com/Fabioiad2</a></p>
     <p>Profilo Linkedin: <a target="_blank"
         href="https://www.linkedin.com/in/fabio-iadicicco-b78362281/">linkedin.com/in/fabio-iadicicco</a></p>
-  </main>
+  </section>
   <footer>
     <p>&copy;2026 Fabio Iadicicco </p>
   </footer>
