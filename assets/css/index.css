@@ -1,0 +1,11 @@
+   tr,td {
+      border: 1px solid;
+    }
+    input, textarea{
+      display: block;
+    }
+    #verify{
+      display: inline;
+    }
+
+  
