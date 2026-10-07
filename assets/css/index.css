@@ -38,10 +38,13 @@ tr,td,th {
 .inputForm{
   font-family: 'Helvetica Neue', Arial, sans-serif;
   width: 60%;
+  padding: 7px;
+  border-radius: 5px;
 
 }
 
 .inputForm:focus{
+  border: 3px solid white;
     background-color:#232323;
     color: white;
 }
