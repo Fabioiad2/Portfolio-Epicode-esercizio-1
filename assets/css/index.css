@@ -1,11 +1,81 @@
-   tr,td {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+  body{
+    font-family: "Roboto", sans-serif;
+    }
+
+
+tr,td,th {
       border: 1px solid;
     }
     input, textarea{
       display: block;
     }
+
     #verify{
       display: inline;
     }
 
   
+  a:link:hover{
+    color: red;
+  }
+
+.sectionTitle{
+  color: #1F3D7A;
+}
+
+.skills li:nth-child(odd){
+  background-color: rgba(134, 132, 132, 0.093);
+  font-weight: bold;
+}
+
+.navbar a{
+  color: hsl(67, 98%, 26%);
+}
+
+.inputForm{
+  font-family: 'Helvetica Neue', Arial, sans-serif
+
+}
+
+.inputForm:focus{
+    background-color:#232323;
+    color: white;
+}
+
+.btn, .footer{
+  background-color: hsl(220, 60%, 30%);
+  color: white;
+}
+
+.footer{
+  text-align: center;
+  font-size: 0.9rem;
+  
+}
+
+.btn:hover{
+  background-color:  hsl(220, 60%, 45%);
+}
+
+.headerSection{
+  text-align: center;
+  background-image: url('https://picsum.photos/seed/picsum/1240/768');
+  background-size: cover;
+}
+
+.studente{
+  color: #F44A4A
+;
+}
+
+.title{
+  font-weight: bold;
+  font-style: italic;
+}
+
+.chiSono{
+  background-color: ffffff;
+  text-align: justify;
+}

@@ -10,13 +10,13 @@
 </head>
 
 <body>
-  <header id="start">
-    <h1>Fabio Iadicicco</h1>
+  <header class="headerSection" id="start">
+    <h1 class="title">Fabio Iadicicco</h1>
     <p>
-      <strong>Studente Full Stack</strong> - corso Epicode 2026
+      <strong class="studente">Studente Full Stack</strong> - corso Epicode 2026
     </p>
-    <nav>
-      <ul>
+    <nav class="navbar">
+      <ul >
         <li>
           <a href="#chiSono">Chi sono</a>
         </li>
@@ -38,7 +38,7 @@
   <main>
 
     <section id="chiSono">
-      <h2>Chi sono</h2>
+      <h2 class="sectionTitle">Chi sono</h2>
       <figure>
         <img src="https://placehold.co/200x200" title="Immagine profilo" alt="Immagine profilo">
         <figcaption>immagine da <a href="placehold.co">placehold.co</a></figcaption>
@@ -58,11 +58,11 @@
     </section>
 
     <section id="competenze">
-      <h2>
+      <h2 class="sectionTitle">
         Competenze
       </h2>
       <p>Competenze apprese durante le prime settimane del corso</p>
-      <ul>
+      <ul class="skills">
         <li>Html</li>
         <li>CSS</li>
         <li>Git e Github</li>
@@ -74,7 +74,7 @@
 
 
     <section id="esperienze">
-      <h2>Esperienze</h2>
+      <h2 class="sectionTitle">Esperienze</h2>
       <p>Un riepilogo delle mie esperienze</p>
       <table>
         <caption>Esperienze Formative</caption>
@@ -110,7 +110,7 @@
 
 
     <section id="progetti">
-      <h2>Progetti</h2>
+      <h2 class="sectionTitle">Progetti</h2>
       <p>I lavori svolti durante le prime settimane del corso.</p>
       <a href="#start">Torna su</a>
 
@@ -142,27 +142,30 @@
 
   </main>
   <section>
-    <h2 id="contatti">
+    <h2 class="sectionTitle" id="contatti">
       Contatti
     </h2>
     <p>Sono presente in queste piattaforme, dove puoi seguirmi e contattarmi</p>
     <form method="post" action="">
       <label for="name" id="name">Nome</label>
-      <input placeholder="il tuo nome" type="text" name="name" id="name">
+      <input class="inputForm" placeholder="il tuo nome" type="text" name="name" id="name">
       <label required for="email" id="email">email</label>
-      <input type="text" placeholder="la tua email" name="email" id="email">
+      <input class="inputForm" type="text" placeholder="la tua email" name="email" id="email">
       <label for="select">Motivo del contatto</label>
-      <select name="select" id="select">
+      <select class="inputForm" name="select" id="select">
         <option value="#">seleziona un opzione</option>
+        <option value="#">opzione A</option>
+        <option value="#">opzione B</option>
+        <option value="#">opzione C</option>
       </select> <br>
       <label for="date">Data preferita per la risposta</label>
-      <input type="date" name="date" id="date">
+      <input class="inputForm" type="date" name="date" id="date">
       <label for="messaggio">messaggio</label>
-      <textarea required rows="5" name="messaggio" id="messaggio" placeholder="scrivi il messaggio"></textarea>
-      <input type="checkbox" name="verify" id="verify">
+      <textarea class="inputForm" required rows="5" name="messaggio" id="messaggio" placeholder="scrivi il messaggio"></textarea>
+      <input  type="checkbox" name="verify" id="verify">
       <label for="verify">Accetto di essere ricontattato</label>
       <br>
-      <button type="submit">Invia</button>
+      <button class="btn" type="submit">Invia</button>
     </form>
     <p>Profilo Github: <a target="_blank" href="https://github.com/Fabioiad2">github.com/Fabioiad2</a></p>
     <p>Profilo Linkedin: <a target="_blank"
@@ -170,9 +173,8 @@
     <a href="#start">Torna su</a>
 
   </section>
-  <footer>
+  <footer class="footer">
     <p>&copy;2026 Fabio Iadicicco </p>
   </footer>
 </body>
-
 </html>
