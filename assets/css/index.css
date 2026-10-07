@@ -2,6 +2,7 @@
 
   body{
     font-family: "Roboto", sans-serif;
+    line-height: 1.7;
     }
 
 
@@ -35,7 +36,8 @@ tr,td,th {
 }
 
 .inputForm{
-  font-family: 'Helvetica Neue', Arial, sans-serif
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  width: 60%;
 
 }
 
@@ -47,6 +49,10 @@ tr,td,th {
 .btn, .footer{
   background-color: hsl(220, 60%, 30%);
   color: white;
+}
+.btn{
+  padding: 5px;
+  width: 20%;
 }
 
 .footer{
@@ -79,3 +85,12 @@ tr,td,th {
   background-color: ffffff;
   text-align: justify;
 }
+
+.project{
+  background-color: #ffffff;
+}
+
+.project article:nth-of-type(odd){
+  background-color: rgba(228, 171, 0, 0.04);
+}
+
