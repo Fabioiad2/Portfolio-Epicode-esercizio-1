@@ -1,99 +1,168 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
-  body{
-    font-family: "Roboto", sans-serif;
-    line-height: 1.7;
-    }
-
-
-tr,td,th {
-      border: 1px solid;
-    }
-    input, textarea{
-      display: block;
-    }
-
-    #verify{
-      display: inline;
-    }
-
-  
-  a:link:hover{
-    color: red;
-  }
-
-.sectionTitle{
-  color: #1F3D7A;
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.7;
 }
 
-.skills li:nth-child(odd){
+*::before,
+*::after {
+  margin: 0;
+  box-sizing: content-box;
+  overflow: auto;
+}
+
+table,
+td,
+th {
+  border: 0.1px solid;
+
+}
+
+thead{
+  background-color: black;
+  color: white;
+}
+td,th{
+  padding: 6px;
+}
+
+input,
+textarea {
+  display: block;
+}
+
+#verify {
+  display: inline;
+}
+
+a:link:hover {
+  color: red;
+}
+
+.sectionTitle {
+  color: #1f3d7a;
+}
+
+.skills li:nth-child(odd) {
   background-color: rgba(134, 132, 132, 0.093);
   font-weight: bold;
 }
 
-.navbar a{
+.navbar a {
   color: hsl(67, 98%, 26%);
 }
 
-.inputForm{
-  font-family: 'Helvetica Neue', Arial, sans-serif;
+.inputForm {
+  font-family: "Helvetica Neue", Arial, sans-serif;
   width: 60%;
   padding: 7px;
   border-radius: 5px;
-
 }
 
-.inputForm:focus{
+.inputForm:focus {
   border: 3px solid white;
-    background-color:#232323;
-    color: white;
+  background-color: #232323;
+  color: white;
 }
 
-.btn, .footer{
+.btn,
+.footer {
   background-color: hsl(220, 60%, 30%);
   color: white;
 }
-.btn{
-  padding: 5px;
+.btn {
+  padding: 12px 24x;
+  border: none;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 20%;
 }
 
-.footer{
+.footer {
   text-align: center;
   font-size: 0.9rem;
-  
 }
 
-.btn:hover{
-  background-color:  hsl(220, 60%, 45%);
+.btn:hover {
+  background-color: hsl(220, 60%, 45%);
 }
 
-.headerSection{
+.headerSection {
   text-align: center;
-  background-image: url('https://picsum.photos/seed/picsum/1240/768');
+  background-image: url("https://picsum.photos/seed/picsum/1240/768");
   background-size: cover;
+  padding: 60px 20px 40px;
+  border-bottom: 4px;
 }
 
-.studente{
-  color: #F44A4A
-;
+.studente {
+  color: #f44a4a;
 }
 
-.title{
+.title {
   font-weight: bold;
   font-style: italic;
 }
 
-.chiSono{
+.chiSono {
   background-color: ffffff;
   text-align: justify;
 }
 
-.project{
+.project {
   background-color: #ffffff;
 }
 
-.project article:nth-of-type(odd){
+.project article:nth-of-type(odd) {
   background-color: rgba(228, 171, 0, 0.04);
 }
 
+section {
+  padding: 32px;
+  margin-bottom: 24px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.navbar ul li {
+  display: inline-block;
+}
+
+.navbar {
+  padding: 8px 16px;
+  margin: 0.4px;
+  border-radius: 4px;
+}
+
+.staticForm::placeholder {
+  color: #999999;
+}
+
+main {
+  max-width: 920px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}
+
+
+figure, image {
+  float: inline-start;
+}
+
+
+.chisonoContent p:first-of-type::first-letter{
+  color: red;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.sectionTitle::before{
+
+}
+
+.profileimage{
+  border-radius: 50%;
+  border: 1px solid yellow;
+}
