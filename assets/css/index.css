@@ -78,7 +78,9 @@ a:link:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   width: 20%;
 }
-
+.btn:hover{
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+}
 .footer {
   text-align: center;
   font-size: 0.9rem;
@@ -94,6 +96,7 @@ a:link:hover {
   background-size: cover;
   padding: 60px 20px 40px;
   border-bottom: 4px;
+  text-shadow: rgba(0,0,0,0.2);
 }
 
 .studente {
@@ -201,4 +204,9 @@ figure, image {
 
 body{
   margin: 0;
+}
+
+.inputForm::placeholder{
+  color: #999999;
+  font-style: italic;
 }
