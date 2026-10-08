@@ -210,3 +210,12 @@ body{
   color: #999999;
   font-style: italic;
 }
+
+ .tab a{
+  /* margin: 9px; */
+  padding: 7px;
+}
+
+.tab{
+  margin: 2px;
+}
