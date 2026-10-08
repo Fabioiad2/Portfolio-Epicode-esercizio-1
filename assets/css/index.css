@@ -132,6 +132,12 @@ section {
 
 .navbar ul li {
   display: inline-block;
+  margin: 0px;
+  padding: 0;
+}
+ul{
+  padding: 0px;
+  /* grazie al padding ora è perfettamente al centro */
 }
 
 .navbar {
